@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { API_BASE_URL } from '../config';
 
 const Community = () => {
   const [formData, setFormData] = useState({
@@ -19,7 +20,7 @@ const Community = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('http://localhost:5000/api/community/join', {
+      const response = await fetch(`${API_BASE_URL}/api/community/join`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
