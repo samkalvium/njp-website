@@ -19,8 +19,11 @@ const Navbar = () => {
   return (
     <nav className="glass fixed w-full top-0 z-50 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold gradient-text font-['Space_Grotesk']">
-          NJP
+        <Link to="/" className="flex items-center space-x-3 group">
+          <img src="/logo.jpg" alt="NJP Logo" className="h-10 w-10 object-contain rounded-lg border border-white/20 shadow-md group-hover:scale-105 transition-transform duration-300" />
+          <span className="text-2xl font-bold gradient-text font-['Space_Grotesk']">
+            NJP
+          </span>
         </Link>
 
         {/* Desktop Menu */}
@@ -30,6 +33,7 @@ const Navbar = () => {
           <Link to="/manifesto" className="hover:text-[#3B82F6] transition-colors">Manifesto</Link>
           <Link to="/leadership" className="hover:text-[#3B82F6] transition-colors">Leadership</Link>
           <Link to="/community" className="hover:text-[#3B82F6] transition-colors">Community</Link>
+          <Link to="/news" className="hover:text-[#3B82F6] transition-colors">News</Link>
         </div>
 
         {/* Desktop Auth Buttons */}
@@ -88,6 +92,7 @@ const Navbar = () => {
           <Link to="/manifesto" className="block hover:text-[#3B82F6] transition-colors" onClick={() => setIsOpen(false)}>Manifesto</Link>
           <Link to="/leadership" className="block hover:text-[#3B82F6] transition-colors" onClick={() => setIsOpen(false)}>Leadership</Link>
           <Link to="/community" className="block hover:text-[#3B82F6] transition-colors" onClick={() => setIsOpen(false)}>Community</Link>
+          <Link to="/news" className="block hover:text-[#3B82F6] transition-colors" onClick={() => setIsOpen(false)}>News</Link>
           {user ? (
             <div className="pt-4">
               <div className="glass-card rounded-lg p-4">

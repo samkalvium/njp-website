@@ -7,7 +7,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold gradient-text font-['Space_Grotesk'] mb-4">NJP</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <img src="/logo.jpg" alt="NJP Logo" className="h-10 w-10 object-contain rounded-lg border border-white/20 shadow-sm" />
+              <span className="text-2xl font-bold gradient-text font-['Space_Grotesk']">
+                NJP
+              </span>
+            </div>
             <p className="text-gray-600">NextGen Janata Party<br />Future First. Excuses Last.</p>
           </div>
 
@@ -19,6 +24,7 @@ const Footer = () => {
               <li><Link to="/about" className="text-gray-600 hover:text-[#1E293B] transition-colors">About</Link></li>
               <li><Link to="/manifesto" className="text-gray-600 hover:text-[#1E293B] transition-colors">Manifesto</Link></li>
               <li><Link to="/leadership" className="text-gray-600 hover:text-[#1E293B] transition-colors">Leadership</Link></li>
+              <li><Link to="/news" className="text-gray-600 hover:text-[#1E293B] transition-colors">News</Link></li>
             </ul>
           </div>
 

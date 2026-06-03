@@ -8,6 +8,7 @@ import Leadership from './pages/Leadership';
 import Community from './pages/Community';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import News from './pages/News';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/manifesto" element={<Manifesto />} />
             <Route path="/leadership" element={<Leadership />} />
             <Route path="/community" element={<Community />} />
+            <Route path="/news" element={<News />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
           </Routes>
