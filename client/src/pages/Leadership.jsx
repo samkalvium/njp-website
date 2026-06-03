@@ -8,7 +8,7 @@ const Leadership = () => {
       tagline: 'Building a Nation Where Opportunity Leads to Prosperity',
       description:
         'The Chief Prosperity Officer serves as the principal architect of the nation’s economic vision, ensuring that every policy, reform, and initiative contributes to improving the quality of life for citizens. The mission is to ensure that economic growth is measured by the opportunities, security, and prosperity experienced by every citizen.',
-      image: 'public/leaders/neha.jpeg',
+      image: '/leaders/neha.jpeg',
       delay: 0,
     },
     {
@@ -17,7 +17,7 @@ const Leadership = () => {
       tagline: 'Building a stronger economy for a stronger nation.',
       description:
         'Responsible for designing strategies that accelerate sustainable economic development, attract investments, strengthen industries, and create long-term prosperity for the nation.',
-      image: 'public/leaders/swaroop.jpeg',
+      image: '/leaders/swaroop.jpeg',
       delay: 100,
     },
     {
@@ -26,7 +26,7 @@ const Leadership = () => {
       tagline: 'Empowering innovation, enabling success.',
       description:
         'Focused on empowering innovators, entrepreneurs, and startups through mentorship, funding opportunities, policy support, and access to resources that help transform ideas into successful enterprises.',
-      image: 'public/leaders/vivashwath.jpeg',
+      image: '/leaders/Vivashwath.jpeg',
       delay: 200,
     },
     {
@@ -35,7 +35,7 @@ const Leadership = () => {
       tagline: 'Fair taxes. Simple systems. Greater trust.',
       description:
         'Dedicated to creating a transparent, efficient, and citizen-friendly tax ecosystem through simplified compliance procedures and technology-driven governance.',
-      image: 'public/leaders/Gautami.jpeg',
+      image: '/leaders/Gautami.jpeg',
       delay: 300,
     },
     {
@@ -44,7 +44,7 @@ const Leadership = () => {
       tagline: 'Skills today, opportunities tomorrow.',
       description:
         'Works to bridge the gap between education and industry through skill development programs, internships, apprenticeships, and workforce readiness initiatives.',
-      image: 'public/leaders/sharun.jpeg',
+      image: '/leaders/Sharun.jpeg',
       delay: 400,
     },
     {
@@ -53,7 +53,7 @@ const Leadership = () => {
       tagline: 'Prosperity measured by people, not just numbers.',
       description:
         'Focused on improving the financial well-being of individuals and families through financial literacy, economic opportunity, savings awareness, and long-term prosperity initiatives.',
-      image: 'public/leaders/shambhavi.jpeg',
+      image: '/leaders/Shambhavi.jpeg',
       delay: 500,
     },
   ];
